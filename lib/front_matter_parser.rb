@@ -19,6 +19,7 @@ module FrontMatterParser
     sass: ['//', nil, nil],
     scss: ['//', nil, nil],
     md: [nil, nil, nil],
+    markdown: [nil, nil, nil],
   }
 
   # Parses a string into a {Parsed} instance. The syntax of the string can be set with :syntax option. Otherwise, comment marks can be manually indicated with :comment, :start_comment and :end_comment options.
